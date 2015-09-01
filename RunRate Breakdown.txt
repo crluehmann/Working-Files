@@ -1,0 +1,9 @@
+z = P = VLookup(Prod_CD, H:\Release_Target\[RUN_RATE_LOOKUP_ANY.xlsx]AveRates01 - A5:AX - 45)
+
+AB = R = VLookup(Prod_CD, same as above -- 43)
+
+AA = Q = VLookup(Prod_CD, RUN_RATE_LOOKUP_05_ANY.xlxs]AveRates05 -- 45)
+
+AC = S = VLookup(Prod_CD, same as above -- 43)
+
+AD -- WC = Round(Z) (Round(AB)) EC = Round(AA) (Round (AC))
