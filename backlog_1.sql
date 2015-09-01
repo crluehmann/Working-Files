@@ -34,4 +34,4 @@ FROM         dbo.orders AS ord INNER JOIN
                       dbo.inv AS i ON i.PROD_CD = olog.PROD_CD
 WHERE     (ord.CLOSE_CD < 20) AND (ord.ORD_DT > 77800) AND (olog.PROD_COMP = '0' OR
                       olog.PROD_COMP = ' ' OR
-                      olog.PROD_COMP = 'C') AND (olog.CAN_QTY = 0) AND (olog.WHS_NUM IN ('06', '07', '20', '41', '41', '50', '70', '81')) AND (olog.INVS_NUM = 0)
+                      olog.PROD_COMP = 'C') AND (olog.CAN_QTY = 0) AND (olog.WHS_NUM IN (07', '20', '41', '41', '50', '70', '81')) AND (olog.INVS_NUM = 0)
