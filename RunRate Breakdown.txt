@@ -7,3 +7,16 @@ AA = Q = VLookup(Prod_CD, RUN_RATE_LOOKUP_05_ANY.xlxs]AveRates05 -- 45)
 AC = S = VLookup(Prod_CD, same as above -- 43)
 
 AD -- WC = Round(Z) (Round(AB)) EC = Round(AA) (Round (AC))
+
+
+WOS ----
+
+
+Q3 = Avail_West
+C3 = Mid(AB3,A3+1,B3-A3-1) == Mid(RR,(RR or 1)-1, ((RR or RR, 1)-RR,1)-1) == RR
+
+V3 = Avail_East
+F3 = Mid(AB3,D3+1,E3-D3-1) == same as above but for other coast
+
+WC WOS = Q3/C3
+EC WOS = V3/F3
